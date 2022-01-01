@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'OPTIAgency-Gothic';
+    src: url(users/bravo/appdata/local/microsoft/windows/fonts/optiagency-gothic.otf);
+}
+
+$primary-color: Gray;
+$secondary-color: fuchsia;
+$show-image-home: true;
+$home-image: url(../../Images/TWITTER_Sponsors.png);
+$backgrund-opacity: 0.9;
+
+@mixin easeOut {
+    transition: all 0.7s ease-out;
+}
+
+* {
+    box-sizing: border-box;
+}
